@@ -72,7 +72,7 @@ body::before {
 ::selection { background: var(--accent); color: #fff; }
 
 h1, h2, h3, .display {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Sora', sans-serif;
   font-weight: 800;
   letter-spacing: -0.5px;
   line-height: 1.12;
@@ -102,7 +102,7 @@ button { font: inherit; cursor: pointer; }
 .brand { display: flex; align-items: center; gap: 11px; }
 .brand-mark { width: 34px; height: 34px; flex: none; }
 .brand-name {
-  font-family: 'Syne', sans-serif; font-weight: 800; font-size: 19px;
+  font-family: 'Sora', sans-serif; font-weight: 800; font-size: 19px;
   letter-spacing: 0.5px;
 }
 .brand-name em { font-style: normal; color: var(--accent); }
@@ -247,7 +247,7 @@ button { font: inherit; cursor: pointer; }
 }
 .stat:first-child { border-left: 0; }
 .stat b {
-  display: block; font-family: 'Syne', sans-serif; font-weight: 800;
+  display: block; font-family: 'Sora', sans-serif; font-weight: 800;
   font-size: clamp(24px, 3vw, 34px); letter-spacing: -0.5px;
 }
 .stat b i { font-style: normal; color: var(--accent); }
