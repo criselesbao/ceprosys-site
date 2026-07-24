@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CEPROSYS — Programação de CLP, Supervisórios e Aplicativos Industriais</title>
+  <meta name="description" content="Programação de CLP e IHM, supervisórios web em tempo real e aplicativos sob medida para a indústria. Mais de 30 anos de chão de fábrica no setor cerâmico." />
+  <link rel="canonical" href="https://ceprosys.com.br/" />
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CEPROSYS" />
+  <meta property="og:title" content="CEPROSYS — CLP, Supervisórios e Aplicativos Industriais" />
+  <meta property="og:description" content="Automação que roda de verdade: da lógica ladder no chão de fábrica ao dashboard no seu celular. 30+ anos de indústria." />
+  <meta property="og:url" content="https://ceprosys.com.br/" />
+  <meta property="og:locale" content="pt_BR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "CEPROSYS",
+    "url": "https://ceprosys.com.br",
+    "telephone": "+55-11-97211-0884",
+    "description": "Programação de CLP e IHM, supervisórios industriais e desenvolvimento de aplicativos para empresas.",
+    "areaServed": "BR",
+    "founder": { "@type": "Person", "name": "Cristiano Elesbão" },
+    "knowsAbout": ["Programação de CLP", "Sistemas supervisórios SCADA", "IHM", "Automação industrial", "Desenvolvimento de software"]
+  }
+  </script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="/" aria-label="CEPROSYS — página inicial">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="37" height="37" rx="9" stroke="url(#bm)" stroke-width="2"/>
+        <path d="M12 12v16" stroke="url(#bm)" stroke-width="2" stroke-linecap="round"/>
+        <path d="M12 14h9M12 20h13M12 26h9" stroke="url(#bm)" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="27" cy="14" r="2.4" fill="#5b6ef5"/>
+        <circle cx="27" cy="26" r="2.4" fill="#8b5cf6"/>
+        <defs>
+          <linearGradient id="bm" x1="0" y1="0" x2="40" y2="40">
+            <stop stop-color="#5b6ef5"/><stop offset="1" stop-color="#8b5cf6"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span>
+        <span class="brand-name">CEPRO<em>SYS</em></span>
+        <span class="brand-tag" style="display:block">Automação &amp; Software</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="siteNav" aria-label="Navegação principal">
+      <a href="/" class="on">Início</a>
+      <a href="/servicos.html">Serviços</a>
+      <a href="/projetos.html">Projetos</a>
+      <a href="/sobre.html">Sobre</a>
+      <a href="/contato.html">Contato</a>
+    </nav>
+
+    <div class="top-actions">
+      <button class="btn-ghost-icon" id="themeToggle" aria-label="Alternar tema"></button>
+      <a class="btn-primary topbar-cta" href="https://wa.me/5511972110884?text=Ol%C3%A1!%20Vim%20pelo%20site%20ceprosys.com.br%20e%20quero%20falar%20sobre%20um%20projeto." target="_blank" rel="noopener">
+        Falar no WhatsApp
+      </a>
+      <button class="nav-burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="wrap hero-in">
+      <div>
+        <span class="hero-kicker"><span class="dot-live"></span> Sistemas em produção · monitorados 24/7</span>
+        <h1>Automação que roda <span class="grad">de verdade</span>: CLP, supervisórios e aplicativos sob medida.</h1>
+        <p class="hero-sub">
+          Da lógica ladder no chão de fábrica ao dashboard no seu celular.
+          Projetamos, programamos e mantemos sistemas industriais completos —
+          com mais de 30 anos de experiência em indústria cerâmica.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn-primary btn-lg" href="/projetos.html">Ver projetos entregues</a>
+          <a class="btn-outline btn-lg" href="/contato.html">Solicitar orçamento</a>
+        </div>
+      </div>
+
+      <div class="hero-art fade in" aria-hidden="true">
+        <svg class="art-panel" viewBox="0 0 560 430" fill="none">
+          <!-- janela do supervisório -->
+          <rect x="10" y="10" width="540" height="360" rx="14" fill="var(--surface)" stroke="var(--border2)"/>
+          <rect x="10" y="10" width="540" height="38" rx="14" fill="var(--surface2)"/>
+          <rect x="10" y="34" width="540" height="14" fill="var(--surface2)"/>
+          <circle cx="34" cy="29" r="5" fill="var(--red)" opacity=".8"/>
+          <circle cx="52" cy="29" r="5" fill="var(--amber)" opacity=".8"/>
+          <circle cx="70" cy="29" r="5" fill="var(--green)" opacity=".8"/>
+          <text x="96" y="33" class="txt" font-size="11" fill="var(--muted)">supervisorio — producao / tempo real</text>
+          <text x="470" y="33" class="txt" font-size="10" fill="var(--green)">● ONLINE</text>
+
+          <!-- gráfico de linha -->
+          <g>
+            <rect x="30" y="64" width="332" height="180" rx="10" fill="var(--surface2)" stroke="var(--border)"/>
+            <text x="46" y="88" class="txt" font-size="10" fill="var(--muted)">PRODUCAO_M2 / HORA</text>
+            <g stroke="var(--border)" stroke-dasharray="3 5">
+              <path d="M46 200 h300"/><path d="M46 160 h300"/><path d="M46 120 h300"/>
+            </g>
+            <polyline points="46,196 76,188 106,192 136,170 166,176 196,150 226,158 256,132 286,140 316,118 346,124"
+              stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <polyline points="46,206 76,204 106,207 136,198 166,203 196,190 226,196 256,182 286,188 316,172 346,178"
+              stroke="var(--accent2)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".55"/>
+            <circle cx="346" cy="124" r="4" fill="var(--accent)"/>
+            <circle cx="346" cy="124" r="8" fill="var(--accent)" opacity=".25" class="blink"/>
+            <!-- linha de varredura -->
+            <rect class="scan" x="46" y="96" width="2" height="128" fill="var(--accent)" opacity=".5"/>
+          </g>
+
+          <!-- cartões de leitura -->
+          <g>
+            <rect x="378" y="64" width="152" height="54" rx="10" fill="var(--surface2)" stroke="var(--border)"/>
+            <text x="394" y="86" class="txt" font-size="9.5" fill="var(--muted)">FORNO_01 · QUEIMA</text>
+            <text x="394" y="107" font-family="'DM Mono',monospace" font-size="17" fill="var(--text)">987&#8202;°C</text>
+            <circle cx="516" cy="82" r="4" fill="var(--green)" class="blink"/>
+
+            <rect x="378" y="127" width="152" height="54" rx="10" fill="var(--surface2)" stroke="var(--border)"/>
+            <text x="394" y="149" class="txt" font-size="9.5" fill="var(--muted)">GAS · VAZAO ATUAL</text>
+            <text x="394" y="170" font-family="'DM Mono',monospace" font-size="17" fill="var(--text)">712&#8202;m³/h</text>
+            <circle cx="516" cy="145" r="4" fill="var(--green)"/>
+
+            <rect x="378" y="190" width="152" height="54" rx="10" fill="var(--surface2)" stroke="var(--border)"/>
+            <text x="394" y="212" class="txt" font-size="9.5" fill="var(--muted)">PRENSA_02 · ESTADO</text>
+            <text x="394" y="233" font-family="'DM Mono',monospace" font-size="15" fill="var(--green)">RUN · AUTO</text>
+            <circle cx="516" cy="208" r="4" fill="var(--green)"/>
+          </g>
+
+          <!-- barras por turno -->
+          <g>
+            <rect x="30" y="256" width="332" height="92" rx="10" fill="var(--surface2)" stroke="var(--border)"/>
+            <text x="46" y="278" class="txt" font-size="10" fill="var(--muted)">M² POR TURNO</text>
+            <g>
+              <rect x="52"  y="306" width="30" height="28" rx="4" fill="var(--accent)" opacity=".85"/>
+              <rect x="96"  y="296" width="30" height="38" rx="4" fill="var(--accent)" opacity=".65"/>
+              <rect x="140" y="312" width="30" height="22" rx="4" fill="var(--accent)" opacity=".85"/>
+              <rect x="184" y="290" width="30" height="44" rx="4" fill="var(--accent2)" opacity=".8"/>
+              <rect x="228" y="300" width="30" height="34" rx="4" fill="var(--accent)" opacity=".65"/>
+              <rect x="272" y="286" width="30" height="48" rx="4" fill="var(--accent2)" opacity=".9"/>
+              <rect x="316" y="304" width="30" height="30" rx="4" fill="var(--accent)" opacity=".75"/>
+            </g>
+          </g>
+
+          <!-- painel de alarme -->
+          <g>
+            <rect x="378" y="253" width="152" height="95" rx="10" fill="var(--surface2)" stroke="var(--border)"/>
+            <text x="394" y="275" class="txt" font-size="9.5" fill="var(--muted)">ALERTAS → WHATSAPP</text>
+            <rect x="392" y="286" width="124" height="22" rx="6" fill="var(--surface)" stroke="var(--border)"/>
+            <circle cx="404" cy="297" r="3.5" fill="var(--green)"/>
+            <text x="414" y="301" class="txt" font-size="9" fill="var(--muted)">turno fechado · ok</text>
+            <rect x="392" y="314" width="124" height="22" rx="6" fill="var(--surface)" stroke="var(--border)"/>
+            <circle cx="404" cy="325" r="3.5" fill="var(--amber)" class="blink"/>
+            <text x="414" y="329" class="txt" font-size="9" fill="var(--muted)">gas acima da media</text>
+          </g>
+
+          <!-- trilho ladder embaixo -->
+          <g transform="translate(10, 386)">
+            <path d="M14 0 v34 M526 0 v34" stroke="var(--border2)" stroke-width="2"/>
+            <path d="M14 10 h120 M186 10 h150 M388 10 h138" stroke="var(--border2)"/>
+            <path d="M134 2 v16 M148 2 v16" stroke="var(--accent)" stroke-width="2"/>
+            <path d="M336 2 v16 m16 -16 v16 m-16 -8 h16" stroke="var(--accent2)" stroke-width="2" opacity=".9"/>
+            <circle cx="452" cy="10" r="9" stroke="var(--green)" stroke-width="2"/>
+            <path d="M14 26 h80 M118 26 h408" stroke="var(--border2)"/>
+            <path d="M94 18 v16 M108 18 v16" stroke="var(--accent)" stroke-width="2"/>
+            <text x="470" y="14" class="txt" font-size="9" fill="var(--muted2)">OUT_100.02</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats">
+    <div class="wrap stats-in">
+      <div class="stat fade"><b>30<i>+</i></b><span>anos de indústria</span></div>
+      <div class="stat fade d1"><b>200<i>+</i></b><span>projetos entregues</span></div>
+      <div class="stat fade d2"><b>24<i>/</i>7</b><span>sistemas monitorados</span></div>
+      <div class="stat fade d3"><b>100<i>%</i></b><span>sob medida</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PILARES ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head fade">
+        <div class="sec-label">O que fazemos</div>
+        <h2>Três frentes, um objetivo: sua operação sob controle.</h2>
+        <p>Atuamos do controlador ao aplicativo — o que nos permite integrar camadas que normalmente ficam isoladas entre fornecedores diferentes.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card fade">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+          </div>
+          <h3>Programação de CLP &amp; IHM</h3>
+          <p>Lógica ladder do zero ou retrofit de programas existentes: intertravamentos, sequenciamento, segurança. IHMs desenhadas para o operador, não para o catálogo.</p>
+          <ul class="tick-list">
+            <li>Omron, Delta e plataformas compatíveis</li>
+            <li>Intertravamentos e ciclos automáticos</li>
+            <li>Documentação técnica completa</li>
+          </ul>
+          <a class="card-link" href="/servicos.html#clp">Detalhes do serviço
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </article>
+
+        <article class="card fade d1">
+          <div class="card-icon green">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M6 14l3-4 3 2 4-6 2 3"/><path d="M8 22h8M12 18v4"/></svg>
+          </div>
+          <h3>Supervisórios web (SCADA)</h3>
+          <p>Monitoramento em tempo real acessível de qualquer navegador: produção, temperatura, consumo de gás e energia — com histórico, relatórios por turno e alertas no WhatsApp.</p>
+          <ul class="tick-list">
+            <li>Tempo real + histórico consultável</li>
+            <li>Relatórios automáticos por turno</li>
+            <li>Alertas de falha direto no WhatsApp</li>
+          </ul>
+          <a class="card-link" href="/servicos.html#supervisorio">Detalhes do serviço
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </article>
+
+        <article class="card fade d2">
+          <div class="card-icon violet">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18.5h2"/><rect x="2" y="7" width="10" height="8" rx="1.5" fill="var(--surface)" ></rect><path d="M4.5 10h5M4.5 12.5h3"/></svg>
+          </div>
+          <h3>Aplicativos para empresas</h3>
+          <p>Sistemas web e mobile sob medida: manutenção industrial, compras e almoxarifado, cobrança automatizada, atendimento via WhatsApp. Feitos para a sua rotina real.</p>
+          <ul class="tick-list">
+            <li>Web + celular, com controle de acesso</li>
+            <li>Integração com ERP e WhatsApp</li>
+            <li>Impressões e relatórios no seu padrão</li>
+          </ul>
+          <a class="card-link" href="/servicos.html#apps">Detalhes do serviço
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DIFERENCIAL ============ -->
+  <section class="section tight" style="background: color-mix(in srgb, var(--surface) 45%, transparent); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="wrap split">
+      <div class="fade">
+        <div class="sec-label">Por que a CEPROSYS</div>
+        <h2>Quem programa o CLP também entende o seu processo.</h2>
+        <p>A maioria dos fornecedores conhece <b>ou</b> automação <b>ou</b> software. Nós fazemos os dois há décadas — e isso muda o resultado: o supervisório conversa com o controlador, o aplicativo conversa com o ERP, e o alerta chega no WhatsApp de quem resolve.</p>
+        <p>Trabalhamos com um princípio simples: <strong>sistema bom é o que continua funcionando</strong> — depois da queda de energia, da troca de turno e do "sempre fizemos assim".</p>
+        <ul class="tick-list" style="margin-top:20px">
+          <li>Projetos que sobrevivem a reinício e falha de rede</li>
+          <li>Histórico e auditoria: cada ação registrada</li>
+          <li>Suporte de quem construiu, não de call center</li>
+        </ul>
+      </div>
+      <div class="split-art fade d1" aria-hidden="true">
+        <svg class="art-panel" viewBox="0 0 520 360" fill="none">
+          <!-- pirâmide de integração -->
+          <rect x="150" y="30" width="220" height="64" rx="12" fill="var(--surface)" stroke="var(--border2)"/>
+          <text x="260" y="57" text-anchor="middle" class="txt" font-size="11" fill="var(--muted)">APLICATIVO / GESTÃO</text>
+          <text x="260" y="76" text-anchor="middle" font-family="'DM Mono',monospace" font-size="12" fill="var(--text)">celular · web · relatórios</text>
+
+          <rect x="110" y="134" width="300" height="64" rx="12" fill="var(--surface)" stroke="var(--border2)"/>
+          <text x="260" y="161" text-anchor="middle" class="txt" font-size="11" fill="var(--muted)">SUPERVISÓRIO (SCADA)</text>
+          <text x="260" y="180" text-anchor="middle" font-family="'DM Mono',monospace" font-size="12" fill="var(--text)">tempo real · histórico · alertas</text>
+
+          <rect x="70" y="238" width="380" height="64" rx="12" fill="var(--surface)" stroke="var(--border2)"/>
+          <text x="260" y="265" text-anchor="middle" class="txt" font-size="11" fill="var(--muted)">CHÃO DE FÁBRICA</text>
+          <text x="260" y="284" text-anchor="middle" font-family="'DM Mono',monospace" font-size="12" fill="var(--text)">CLP · IHM · sensores · atuadores</text>
+
+          <g stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 6">
+            <path d="M260 94 v40"/>
+            <path d="M260 198 v40"/>
+          </g>
+          <g fill="var(--accent)">
+            <path d="M256 128 l4 8 4-8z"/><path d="M256 102 l4-8 4 8z"/>
+            <path d="M256 232 l4 8 4-8z"/><path d="M256 206 l4-8 4 8z"/>
+          </g>
+          <text x="290" y="120" class="txt" font-size="9.5" fill="var(--accent)">dados sobem</text>
+          <text x="290" y="226" class="txt" font-size="9.5" fill="var(--accent)">comando desce</text>
+
+          <!-- selo -->
+          <g transform="translate(388, 22)">
+            <rect width="118" height="46" rx="10" fill="var(--accent-soft)" stroke="var(--accent)" opacity=".95"/>
+            <text x="59" y="20" text-anchor="middle" class="txt" font-size="9" fill="var(--accent)">INTEGRAÇÃO</text>
+            <text x="59" y="35" text-anchor="middle" font-family="'DM Mono',monospace" font-size="11" fill="var(--text)">ponta a ponta</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJETOS EM DESTAQUE ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head fade">
+        <div class="sec-label">Projetos em produção</div>
+        <h2>Sistemas que estão rodando agora, em fábrica de verdade.</h2>
+        <p>Uma amostra do que está em operação diária — monitorando fornos, controlando prensas e organizando manutenção, compras e cobrança.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="case fade">
+          <div class="case-visual">
+            <svg viewBox="0 0 300 150" fill="none" class="art-panel" aria-hidden="true">
+              <rect x="6" y="6" width="288" height="170" rx="10" fill="var(--surface)" stroke="var(--border2)"/>
+              <rect x="6" y="6" width="288" height="26" rx="10" fill="var(--accent-soft)"/>
+              <text x="20" y="23" class="txt" font-size="9" fill="var(--accent)">SUPERVISÓRIO · PRODUÇÃO CERÂMICA</text>
+              <polyline points="24,110 60,96 96,102 132,78 168,86 204,64 240,72 276,52" stroke="var(--accent)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+              <g stroke="var(--border)" stroke-dasharray="3 5"><path d="M24 116 h252"/><path d="M24 84 h252"/></g>
+              <rect x="24" y="126" width="70" height="16" rx="5" fill="var(--surface2)" stroke="var(--border)"/>
+              <circle cx="34" cy="134" r="3" fill="var(--green)"/>
+              <text x="42" y="137" class="txt" font-size="8" fill="var(--muted)">FORNO OK</text>
+              <rect x="102" y="126" width="70" height="16" rx="5" fill="var(--surface2)" stroke="var(--border)"/>
+              <circle cx="112" cy="134" r="3" fill="var(--green)"/>
+              <text x="120" y="137" class="txt" font-size="8" fill="var(--muted)">GÁS OK</text>
+            </svg>
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="tag">SCADA web</span><span class="tag">WhatsApp</span><span class="tag">Relatórios</span></div>
+            <h3>Supervisório de produção cerâmica</h3>
+            <p>Coleta automática de prensas, fornos e medidor de gás — inclusive de equipamentos sem porta de rede. Produção por turno, escala de turmas e relatório do encarregado enviado ao grupo da produção.</p>
+            <div class="case-result"><span><b>Em produção 24/7</b> — fechamento de turno sem planilha manual.</span></div>
+          </div>
+        </article>
+
+        <article class="case fade d1">
+          <div class="case-visual">
+            <svg viewBox="0 0 300 150" fill="none" class="art-panel" aria-hidden="true">
+              <rect x="6" y="6" width="288" height="170" rx="10" fill="var(--surface)" stroke="var(--border2)"/>
+              <text x="20" y="26" class="txt" font-size="9" fill="var(--muted)">LADDER · ABASTECIMENTO PRENSAS</text>
+              <path d="M28 40 v96 M272 40 v96" stroke="var(--border2)" stroke-width="2"/>
+              <g stroke="var(--border2)"><path d="M28 56 h70 M118 56 h100 M238 56 h34"/><path d="M28 88 h50 M98 88 h120 M238 88 h34"/><path d="M28 120 h90 M138 120 h80 M238 120 h34"/></g>
+              <g stroke="var(--accent)" stroke-width="2"><path d="M98 48 v16 M110 48 v16"/><path d="M78 80 v16 M90 80 v16"/><path d="M118 112 v16 M130 112 v16"/></g>
+              <g stroke="var(--accent2)" stroke-width="2"><path d="M218 48 v16 m14-16 v16 m-14-8 h14"/></g>
+              <circle cx="252" cy="56" r="8" stroke="var(--green)" stroke-width="2"/>
+              <circle cx="252" cy="88" r="8" stroke="var(--green)" stroke-width="2"/>
+              <circle cx="252" cy="120" r="8" stroke="var(--amber)" stroke-width="2"/>
+              <text x="200" y="140" class="txt" font-size="8" fill="var(--muted2)">4 PRENSAS · CICLO AUTO</text>
+            </svg>
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="tag">CLP Omron</span><span class="tag">Ladder</span><span class="tag">IHM Delta</span></div>
+            <h3>CLP + IHM — abastecimento de prensas</h3>
+            <p>Lógica de abastecimento automático de 4 prensas com intertravamentos de segurança, seleção manual/automático e IHM com sinóptico do processo para o operador.</p>
+            <div class="case-result"><span><b>Ciclo automático</b> com intertravamento — menos parada, mais segurança.</span></div>
+          </div>
+        </article>
+
+        <article class="case fade d2">
+          <div class="case-visual">
+            <svg viewBox="0 0 300 150" fill="none" class="art-panel" aria-hidden="true">
+              <rect x="60" y="10" width="180" height="166" rx="14" fill="var(--surface)" stroke="var(--border2)"/>
+              <rect x="126" y="18" width="48" height="6" rx="3" fill="var(--surface2)"/>
+              <rect x="74" y="34" width="152" height="22" rx="6" fill="var(--accent-soft)"/>
+              <text x="84" y="49" class="txt" font-size="9" fill="var(--accent)">ORDENS DE SERVIÇO</text>
+              <g>
+                <rect x="74" y="64" width="152" height="24" rx="6" fill="var(--surface2)" stroke="var(--border)"/>
+                <circle cx="86" cy="76" r="4" fill="var(--green)"/>
+                <text x="96" y="79" class="txt" font-size="8.5" fill="var(--muted)">Preventiva · Prensa 02</text>
+                <rect x="74" y="94" width="152" height="24" rx="6" fill="var(--surface2)" stroke="var(--border)"/>
+                <circle cx="86" cy="106" r="4" fill="var(--amber)"/>
+                <text x="96" y="109" class="txt" font-size="8.5" fill="var(--muted)">Troca de formato · L1</text>
+                <rect x="74" y="124" width="152" height="24" rx="6" fill="var(--surface2)" stroke="var(--border)"/>
+                <circle cx="86" cy="136" r="4" fill="var(--accent)"/>
+                <text x="96" y="139" class="txt" font-size="8.5" fill="var(--muted)">Estoque · óleo ISO VG220</text>
+              </g>
+            </svg>
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="tag">Web + mobile</span><span class="tag">Estoque</span><span class="tag">Permissões</span></div>
+            <h3>App de manutenção industrial</h3>
+            <p>Ordens de serviço, preventivas por parada e troca de formato, lubrificação, conformidade NR-10/12/13 e almoxarifado com controle de estoque — tudo com permissão por usuário.</p>
+            <div class="case-result"><span><b>Manutenção rastreável</b>: histórico completo de cada máquina.</span></div>
+          </div>
+        </article>
+      </div>
+
+      <div style="text-align:center; margin-top:44px" class="fade">
+        <a class="btn-outline btn-lg" href="/projetos.html">Ver todos os projetos
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESSO ============ -->
+  <section class="section tight" style="border-top:1px solid var(--border)">
+    <div class="wrap">
+      <div class="sec-head fade">
+        <div class="sec-label">Como trabalhamos</div>
+        <h2>Método simples, execução rigorosa.</h2>
+      </div>
+      <div class="steps">
+        <div class="step fade">
+          <h3>Levantamento no processo</h3>
+          <p>Entendemos a operação onde ela acontece: máquina, turno, operador. Requisito bom nasce no chão de fábrica, não em reunião.</p>
+        </div>
+        <div class="step fade d1">
+          <h3>Projeto e proposta clara</h3>
+          <p>Escopo, prazo e critério de aceite definidos antes de começar. Você sabe exatamente o que vai receber.</p>
+        </div>
+        <div class="step fade d2">
+          <h3>Desenvolvimento e testes</h3>
+          <p>Construção incremental com validação em campo. Nada entra em produção sem teste — inclusive cenário de falha.</p>
+        </div>
+        <div class="step fade d3">
+          <h3>Entrega e acompanhamento</h3>
+          <p>Treinamento da equipe, documentação e suporte contínuo de quem realmente construiu o sistema.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="cta-band fade">
+        <h2>Tem um processo que ainda depende de planilha, papel e telefone?</h2>
+        <p>Conte como funciona hoje. A gente responde com uma proposta objetiva de automação — sem compromisso e sem tecniquês.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary btn-lg" href="https://wa.me/5511972110884?text=Ol%C3%A1!%20Vim%20pelo%20site%20ceprosys.com.br%20e%20quero%20falar%20sobre%20um%20projeto." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn-outline btn-lg" href="/contato.html">Outras formas de contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-in">
+      <div>
+        <a class="brand" href="/">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1.5" y="1.5" width="37" height="37" rx="9" stroke="url(#bmf)" stroke-width="2"/>
+            <path d="M12 12v16" stroke="url(#bmf)" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 14h9M12 20h13M12 26h9" stroke="url(#bmf)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="27" cy="14" r="2.4" fill="#5b6ef5"/><circle cx="27" cy="26" r="2.4" fill="#8b5cf6"/>
+            <defs><linearGradient id="bmf" x1="0" y1="0" x2="40" y2="40"><stop stop-color="#5b6ef5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">CEPRO<em>SYS</em></span></span>
+        </a>
+        <p>Programação de CLP e IHM, supervisórios industriais e aplicativos sob medida. Mais de 30 anos de experiência em indústria cerâmica, atendendo todo o Brasil.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <div class="footer-links">
+          <a href="/">Início</a>
+          <a href="/servicos.html">Serviços</a>
+          <a href="/projetos.html">Projetos</a>
+          <a href="/sobre.html">Sobre</a>
+          <a href="/contato.html">Contato</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <div class="footer-links">
+          <a href="tel:+5511972110884">(11) 97211-0884</a>
+          <a href="https://wa.me/5511972110884" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="/contato.html">Formulário de contato</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> CEPROSYS · Todos os direitos reservados</span>
+      <span><span class="up">●</span> ceprosys.com.br · feito em casa, como nossos sistemas</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5511972110884?text=Ol%C3%A1!%20Vim%20pelo%20site%20ceprosys.com.br." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a9.9 9.9 0 0 0-8.5 15.1L2 22l5-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.7.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.3 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5v-.5c0-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3a2.8 2.8 0 0 0-.9 2.1c0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.9a15 15 0 0 0 1.5.5 3.6 3.6 0 0 0 1.6.1c.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2z"/></svg>
+</a>
+
+<script src="/assets/js/site.js"></script>
+</body>
+</html>
